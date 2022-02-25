@@ -1,0 +1,22 @@
+h1 {
+    background-color: rgb(161, 156, 156);
+  }
+  
+  @MEDIA screen and (max-width: 480px) {
+    h1 {
+      background-color: rgb(10, 129, 168);
+    }
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 768px) {
+    h1 {
+      background-color: rgb(9, 53, 68);
+    }
+  }
+
+  @media screen and (min-width: 768) and (max-width: 1024px) {
+    h1 {
+      background-color: rgb(181, 63, 185);
+    }
+  }
+  
